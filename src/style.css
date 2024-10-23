@@ -57,9 +57,19 @@ html:not(.mspring_background_plugin_enabled) .tab-container .two-col-layout__mai
     border-radius: 8px;
 }
 
+/* 联系人页面上方 好友通知、群通知 */
+.notify-option {
+    border-radius: 8px; 
+}
+
 /* 消息列表项圆角 */
 .recent-contact-item {
     border-radius: 12px;
+}
+
+/* 任务栏消息通知列表项目 */
+.msg-list .list-item.across-mode.msg-list-item {
+    border-radius: 8px;
 }
 
 /* 联系人列表项圆角 */
@@ -142,7 +152,6 @@ html:is(.linux) .container .more-panel .side-panel {
 #ml-root .normal-file {
     background-color: var(--msp-container);
 }
-
 
 /* 好友通知、群通知列表项 */
 .sys-notify__container .sys-notify-card {
